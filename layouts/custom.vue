@@ -1,0 +1,4 @@
+<template>
+    custom
+    <slot />
+</template>
