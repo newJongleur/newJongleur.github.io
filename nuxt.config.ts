@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   modules: [
     '@element-plus/nuxt',
     '@nuxt/content',
-    '@nuxtjs/color-mode',
     '@pinia/nuxt',
     '@unocss/nuxt',
     '@vueuse/nuxt'
