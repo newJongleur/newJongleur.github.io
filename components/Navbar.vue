@@ -1,5 +1,4 @@
 <template>
-    <Test />
     <nav>
         <ContentNavigation v-slot="{ navigation }">
             <ul>
