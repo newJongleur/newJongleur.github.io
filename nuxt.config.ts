@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
     'element-plus/theme-chalk/dark/css-vars.css',
+    'element-plus/theme-chalk/display.css',
     '~/assets/normalize.css'
   ],
   modules: [
