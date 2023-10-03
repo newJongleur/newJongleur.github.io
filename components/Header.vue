@@ -1,19 +1,19 @@
 <template>
-    <el-row :gutter="10">
+    <el-row>
         <el-col :xs="4" :sm="6" :md="0" :lg="0" :xl="0">
             亖
         </el-col>
-        <el-col :xs="16" :sm="12" :md="4" :lg="6" :xl="6">
+        <el-col :xs="16" :sm="12" :md="4" :lg="4" :xl="4">
             LOGO
         </el-col>
-        <el-col :xs="0" :sm="0" :md="6" :lg="4" :xl="4">
-            空
+        <el-col :xs="0" :sm="0" :md="8" :lg="6" :xl="6">
+            <!-- 空 -->
         </el-col>
-        <el-col :xs="0" :sm="0" :md="8" :lg="8" :xl="8">
-            <Navbar />
-        </el-col>
-        <el-col :xs="4" :sm="6" :md="6" :lg="6" :xl="6">
-            <Test />
+        <el-col :xs="4" :sm="6" :md="10" :lg="12" :xl="12">
+            <div style="display: -webkit-box;">
+                <Navbar class="hidden-sm-and-down" />
+                <Test />
+            </div>
         </el-col>
     </el-row>
 </template>

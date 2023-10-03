@@ -9,3 +9,14 @@
         </ContentNavigation>
     </nav>
 </template>
+
+<style scoped>
+ul {
+    display: flex;
+    justify-content: right;
+}
+
+ul li {
+    margin: 0px 10px;
+}
+</style>

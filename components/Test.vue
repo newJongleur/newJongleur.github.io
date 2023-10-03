@@ -1,10 +1,7 @@
 <template>
-    <button @click="toggleDark()">
-        按钮
-    </button>
+    <el-switch v-model="isDark" style="--el-switch-on-color: #262727;" />
 </template>
 
 <script lang="ts" setup>
 const isDark = useDark();
-const toggleDark = useToggle(isDark);
 </script>

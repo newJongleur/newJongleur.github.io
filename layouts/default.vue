@@ -2,7 +2,9 @@
     <div class="common-layout">
         <el-container>
             <el-header>
-                <Header />
+                <el-affix>
+                    <Header />
+                </el-affix>
             </el-header>
             <el-container>
                 <el-aside width="250px" class="hidden-md-and-down">
@@ -16,3 +18,9 @@
         <el-backtop :right="100" :bottom="100" />
     </div>
 </template>
+
+<style scoped>
+Header{
+    line-height: 60px;
+}
+</style>
