@@ -1,11 +1,13 @@
 <template>
-    <el-button @click="drawer = true">
-        亖
-    </el-button>
+    <client-only>
+        <el-button @click="drawer = true">
+            亖
+        </el-button>
 
-    <el-drawer v-model="drawer" direction="ltr" :with-header="false">
-        <Navbar @click="cancelClick" />
-    </el-drawer>
+        <el-drawer v-model="drawer" direction="ltr" :with-header="false">
+            <Navbar @click="cancelClick" />
+        </el-drawer>
+    </client-only>
 </template>
   
 <script lang="ts" setup>
