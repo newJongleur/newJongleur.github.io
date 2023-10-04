@@ -1,7 +1,7 @@
 <template>
     <el-row>
         <el-col :xs="4" :sm="6" :md="0" :lg="0" :xl="0">
-            亖
+            <LeftNav />
         </el-col>
         <el-col :xs="16" :sm="12" :md="4" :lg="4" :xl="4">
             LOGO
