@@ -8,10 +8,16 @@ export default defineNuxtConfig({
     '~/assets/reset.css'
   ],
   modules: [
+    'nuxt-icon',
     '@element-plus/nuxt',
     '@nuxt/content',
     '@pinia/nuxt',
     '@unocss/nuxt',
     '@vueuse/nuxt'
   ],
+  content: {
+    navigation: {
+      fields: ['icon', 'author', 'publishedAt']
+    }
+  }
 })

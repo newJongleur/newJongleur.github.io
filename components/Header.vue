@@ -6,7 +6,8 @@
             </LeftNav>
         </el-col>
         <el-col :xs="16" :sm="12" :md="4" :lg="4" :xl="4">
-            LOGO
+            <Icon name="tabler:math-y-plus-y" size="32" color="yellow" />
+            <Icon name="😋" />
         </el-col>
         <el-col :xs="0" :sm="0" :md="8" :lg="6" :xl="6">
             <!-- 空 -->
@@ -18,7 +19,7 @@
                     <Navbar :isMode="mode" class="hidden-sm-and-down" />
                 </el-col>
                 <el-col :span="12">
-                    <Test />
+                    <RightNav />
                 </el-col>
             </el-row>
 
